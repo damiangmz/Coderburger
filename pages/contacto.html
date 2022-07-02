@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoderBurger | Contacto</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <!--Inicio del navegador-->
+      <div class="header__video">
+        <img class="img__contacto" src="/assets/contacto.jpg" alt="contacto" />
+        <nav class="navbar">
+          <div class="navbar_container">
+            <ul class="navbar__ul">
+              <li><a href="/pages/promos.html">PROMOS</a></li>
+              <li><a href="/pages/menu.html">MENÚ</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="/index.html"
+              ><img class="nav__img" src="/assets/Logo.png" alt="logo"
+            /></a>
+          </div>
+          <ul class="navbar__uld">
+            <li><a href="/pages/nosotros.html">NOSOTROS</a></li>
+            <li><a href="/pages/contacto.html">CONTACTO</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Fin del navegador-->
+    <main class="main__contacto">
+      <section class="section__contacto">
+        <!-- Inicio Formulario-->
+        <article>
+          <div class="contacto__title">
+            <h1>TU OPINIÓN NOS IMPORTA</h1>
+          </div>
+          <fieldset>
+            <form action=" ">
+              <label for="Nombre">Nombre</label>
+              <input
+                type="text"
+                id="Nombre"
+                name="Nombre"
+                placeholder="Ingrese su nombre"
+              />
+              <label for="Apellido">Apellido</label>
+              <input
+                type="text"
+                id="Apellido"
+                name="Apellido"
+                placeholder="Ingrese su apellido"
+              />
+              <label for="Mail">Mail</label>
+              <input
+                type="text"
+                id="Mail"
+                name="Mail"
+                placeholder="Ingrese su mail"
+              />
+              <textarea
+                name="comentario"
+                id="comentario"
+                cols="32"
+                rows="10"
+                placeholder="Ingrese su comentario"
+              ></textarea>
+              <label for="">Queres recibir info sobre promociones?</label>
+              <input type="checkbox" name="acepta" checked />
+              <input class="form__imput" type="reset" value="RESETEAR" />
+            </form>
+          </fieldset>
+        </article>
+      </section>
+      <!--Fin de Formulario-->
+      <section class="section__map_">
+        <!--Inicio seccion 2 mapa-->
+        <div class="mapa">
+          <iframe
+            class="section__map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2778.5019650679596!2d-67.50070778417945!3d-45.86126597910762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde454fe94b0c459%3A0xc2e35687fb166d7e!2sSan%20Mart%C3%ADn%201588%2C%20U9000AJF%20Comodoro%20Rivadavia%2C%20Chubut!5e0!3m2!1ses-419!2sar!4v1655315114112!5m2!1ses-419!2sar"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <!--Inicio de Footer-->
+      <div class="footer__container">
+        <div class="container__box">
+          <a href="/index.html"
+            ><img class="nav__img2" src="/assets/Logo.png" alt="logo"
+          /></a>
+          <p>
+            Hamburguesas caseras preparadas con dedicación, tiempo y amor.
+            Acompañadas por la mejor bebida artesanal.
+          </p>
+        </div>
+        <div class="footer__ul">
+          <ul>
+            <li><a href="/pages/promos.html">PROMOS</a></li>
+            <li><a href="/pages/menu.html">MENÚ</a></li>
+            <li><a href="/pages/contacto.html">CONTACTO</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>HORARIOS</li>
+            <li>Lunes a domingos de 11 a 23 hs</li>
+            <li>UBICACIÓN</li>
+            <li>San Martín 1588, Comodoro Rivadavia.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__icon">
+        <span class="jam jam-facebook-square"></span>
+        <span class="jam jam-instagram"></span>
+        <span class="jam jam-twitter-square"></span>
+      </div>
+    </footer>
+  </body>
+</html>

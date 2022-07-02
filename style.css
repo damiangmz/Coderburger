@@ -1,0 +1,750 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Inicia index*/
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header__video {
+  width: 100%;
+}
+
+.navbar {
+  /*Barra de navegacion con grid area*/
+  position: absolute;
+  display: grid;
+  grid-template-areas: "promemu  logo  nosotrocon";
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  right: 30px;
+
+  font-family: "Roboto Slab", serif;
+  font-size: x-large;
+}
+
+.navbar__ul {
+  grid-area: promenu;
+}
+
+.logo__nav {
+  grid-area: logo;
+}
+
+.navbar__uld {
+  grid-area: nosotrocon;
+}
+
+video {
+  width: 100%;
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-rows: 1fr;
+  max-width: 100%;
+}
+
+li {
+  display: inline-block;
+  padding: 40px;
+}
+
+.nav__img {
+  width: 180px;
+  height: 160px;
+}
+
+.nav__img2 {
+  width: 180px;
+  height: 160px;
+}
+
+.section__card {
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.img__delivery_ {
+  width: 100%;
+}
+
+.section__card2 {
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.img2 {
+  width: 100%;
+}
+.card__left {
+  background-color: rgb(255, 209, 6);
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.card__right {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.card__box {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.card__title {
+  font-family: "Roboto Slab", serif;
+  font-size: xxx-large;
+  color: white;
+  margin-bottom: 50px;
+  padding: 5px;
+}
+
+.card__subtitle {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: large;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-size: large;
+}
+
+.card__buttom {
+  margin: 20px;
+}
+
+.card__buttom input {
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(51, 49, 49, 0.945);
+  font-size: large;
+  border: 0px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.card__p {
+  margin-right: 50px;
+  margin-left: 50px;
+
+  text-align: center;
+}
+
+.main__section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/background.jpg);
+}
+
+.section__title {
+  font-family: "Roboto Slab", serif;
+  font-size: xxx-large;
+  height: 80px;
+  text-align: center;
+  color: white;
+  background-image: url(/assets/background.jpg);
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.section__title_ {
+  font-family: "Roboto Slab", serif;
+  font-size: xx-large;
+
+  height: 80px;
+  text-align: center;
+  color: white;
+  display: grid;
+  grid-template-rows: 1fr;
+
+  padding: 10px;
+}
+
+.container__right {
+  margin-right: 100px;
+  width: 700px;
+}
+
+.container__right p {
+  padding: 20px;
+  color: white;
+  text-align: left;
+}
+
+.container__right h3 {
+  color: rgb(255, 209, 6);
+}
+
+.section__logo {
+  background-color: rgb(255, 209, 6);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  color: rgb(163, 155, 155);
+}
+
+.logo__section {
+  width: 100px;
+  padding: 10px;
+}
+
+.social__img {
+  display: grid;
+  grid-template-areas: "img1 img2 img3 img4 img5";
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+}
+
+.footer {
+  background-color: rgb(7, 6, 1);
+  padding: 50px;
+  color: white;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+}
+
+.container__box {
+  max-width: 300px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-image: url(/assets/background.jpg);
+}
+
+.footer__icon {
+  color: white;
+  font-size: xxx-large;
+  text-align: center;
+}
+
+.btn__pedir {
+  position: fixed;
+  width: 120px;
+  height: 35px;
+  border-radius: 80px 0px 0px 90px;
+  bottom: 20px;
+  right: 0px;
+  background-color: rgb(255, 209, 6);
+  color: black;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  z-index: 100;
+}
+
+/*Grids index*/
+
+.img_1 {
+  grid-area: img1;
+}
+
+.img_2 {
+  grid-area: img2;
+}
+
+.img_3 {
+  grid-area: img3;
+}
+
+.img_4 {
+  grid-area: img4;
+}
+
+.img_5 {
+  grid-area: img5;
+}
+
+/*Fin index*/
+/* Inicio pagina menú*/
+.menu__section {
+  background-image: url(/assets/background.jpg);
+  text-align: center;
+  padding: 30px;
+  max-width: 100%;
+}
+
+.img__menu {
+  max-width: 100%;
+}
+
+.menu__section__container p {
+  color: white;
+}
+
+.menu_section__title h1 {
+  color: rgb(255, 209, 6);
+  font-family: "Roboto Slab", serif;
+  font-size: xxx-large;
+  padding: 50px;
+}
+
+/* Tarjetas naranjas menú*/
+.card {
+  width: 288px;
+  background-color: rgb(255, 209, 6);
+  padding: 15px;
+  box-shadow: 1px 1px 6px rgb(255, 249, 249);
+  border: rgb(3, 3, 3);
+  margin-bottom: 45px;
+}
+
+.card-body {
+  background-color: rgb(255, 209, 6);
+  padding: 20px;
+}
+
+.card-title {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  padding: 5px;
+}
+
+.card-text {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-size: medium;
+  padding: 10px;
+}
+
+.btn {
+  background-color: rgb(216, 60, 12);
+  color: white;
+  padding: 10px;
+  border-width: thin;
+  border-radius: 10px;
+  border-color: white;
+  box-shadow: 2px 1px 1px rgb(92, 92, 92);
+  cursor: pointer;
+}
+
+/*aplicando grid en menu*/
+.menu__section__card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  flex-wrap: wrap;
+}
+
+/* Incia pagina nosotros*/
+.main__nosotros {
+  background-image: url(/assets/background.jpg);
+}
+
+.card-deck {
+  width: 550px;
+  background-color: rgb(255, 209, 6);
+  padding: 15px;
+  border: rgb(3, 3, 3);
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.nosotros__card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.section__nosotros p {
+  color: white;
+}
+
+.section__nosotros h1 {
+  color: rgb(255, 209, 6);
+  font-family: "Roboto Slab", serif;
+  font-size: xx-large;
+  padding: 50px;
+}
+
+.nosotros {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+/*Fin pagina nosotros*/
+/*Inicio pagina promos*/
+.main__promo {
+  background-image: url(/assets/background.jpg);
+}
+
+.section__promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.promo__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  padding: 20px;
+}
+
+.promo__box__left {
+  background-color: rgb(255, 209, 6);
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo__box__left h5 {
+  color: white;
+}
+
+.promo__box__left h2 {
+  color: white;
+}
+
+.left__ {
+  padding: 50px;
+}
+
+/*Fin pagina de promos*/
+/*Inicio pagina contacto*/
+.main__contacto {
+  background-image: url(/assets/background.jpg);
+}
+
+.contacto__title {
+  color: rgb(255, 209, 6);
+  font-family: "Roboto Slab", serif;
+  font-size: xx-large;
+  text-align: center;
+  padding: 30px;
+}
+
+fieldset {
+  background-color: rgb(255, 209, 6);
+  width: 700px;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: "Roboto Slab", serif;
+  font-size: medium;
+}
+
+fieldset form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__contacto {
+  display: flex;
+  justify-content: center;
+}
+
+fieldset input {
+  width: 250px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+fieldset textarea {
+  margin: 15px;
+  text-align: center;
+}
+
+.form__imput {
+  width: 100px;
+  background-color: rgb(216, 60, 12);
+  color: white;
+  padding: 10px;
+  border-width: thin;
+  border-radius: 10px;
+  border-color: white;
+  box-shadow: 2px 1px 1px rgb(92, 92, 92);
+  cursor: pointer;
+}
+
+.section__map {
+  padding-bottom: 10px;
+  width: 100%;
+  height: 50vh;
+}
+
+.img__contacto {
+  max-width: 100%;
+}
+
+.img__nos {
+  max-width: 100%;
+}
+
+.img__prom {
+  max-width: 100%;
+}
+
+@media (max-width: 320px) {
+  /*inicio Medias query index*/
+  .navbar__ul {
+    display: grid;
+    font-size: 15px;
+
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .navbar__uld {
+    font-size: 15px;
+  }
+
+  .navbar li {
+    padding: 10px;
+  }
+
+  .nav__img {
+    display: none;
+  }
+
+  .section__card {
+    /*seccion1*/
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 850px;
+  }
+
+  .img2 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .card__buttom input {
+    margin: 0px;
+  }
+
+  .section__container {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .burger__left {
+    width: 500px;
+    height: 700px;
+    display: none;
+  }
+
+  .card__subtitle {
+    font-size: 20px;
+  }
+
+  .card__title {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .container__right {
+    /*seccion 2*/
+    max-height: 100%;
+    width: 320px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .caja__burg {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 5px;
+  }
+
+  .container__right h3 {
+    font: 20px;
+  }
+
+  .container__right p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .section__logo {
+    /*seccion 3*/
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .section__title {
+    font-size: 17px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+  }
+
+  .section__title_ {
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+  }
+
+  /*seccion 4*/
+  /*seccion 5*/
+  .img__delivery_ {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .section__card2 {
+    display: block;
+    height: 750px;
+  }
+
+  .card__box {
+    display: inline-block;
+    width: 500px;
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+
+  .card__p {
+    margin: 10px 10px 0px 0px;
+  }
+
+  .card__box h1 {
+    margin: 10px;
+  }
+
+  .section__social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*footer*/
+  .footer__container {
+    flex-direction: column;
+  }
+
+  footer li {
+    padding: 15px;
+  }
+
+  footer p {
+    padding: 10px;
+  }
+
+  .btn__pedir {
+    display: none;
+  }
+
+  /*fin index*/
+  /*Incio pag menu*/
+  .menu__section__container h2 {
+    font-size: 25px;
+  }
+
+  .menu_section__title h1 {
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .menu__section__card {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 100%;
+    padding: 5px;
+  }
+
+  /*fin pag menu*/
+  /*Inicio pag promo*/
+  .promo__box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .img__promo {
+    width: 100%;
+  }
+
+  /*Fin pag promo*/
+  /*Inicio pag nosotros*/
+  .nosotros {
+    padding: 20px;
+  }
+
+  .nosotros h1 {
+    padding: 15px;
+    font-size: 25px;
+  }
+
+  .nosotros__card {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .card-img-top {
+    width: 100%;
+  }
+
+  .card-deck {
+    width: 100%;
+  }
+
+  /*fin pag nosotros*/
+  /*Inicio pag contacto*/
+  .contacto__title h1 {
+    font-size: 22px;
+  }
+
+  fieldset {
+    width: 100%;
+  }
+} /*fin medias*/
