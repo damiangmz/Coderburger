@@ -159,7 +159,7 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-image: url(/assets/background.jpg);
+  background-image: url(./assets/background.jpg);
 }
 
 .section__title {
@@ -168,7 +168,7 @@ p {
   height: 80px;
   text-align: center;
   color: white;
-  background-image: url(/assets/background.jpg);
+  background-image: url(./assets/background.jpg);
   display: grid;
   grid-template-rows: 1fr;
 }
@@ -247,7 +247,7 @@ footer ul {
 }
 
 body {
-  background-image: url(/assets/background.jpg);
+  background-image: url(./assets/background.jpg);
 }
 
 .footer__icon {
@@ -296,7 +296,7 @@ body {
 /*Fin index*/
 /* Inicio pagina menú*/
 .menu__section {
-  background-image: url(/assets/background.jpg);
+  background-image: url(./assets/background.jpg);
   text-align: center;
   padding: 30px;
   max-width: 100%;
@@ -365,7 +365,7 @@ body {
 
 /* Incia pagina nosotros*/
 .main__nosotros {
-  background-image: url(/assets/background.jpg);
+  background-image: url(./assets/background.jpg);
 }
 
 .card-deck {
@@ -405,7 +405,7 @@ body {
 /*Fin pagina nosotros*/
 /*Inicio pagina promos*/
 .main__promo {
-  background-image: url(/assets/background.jpg);
+  background-image: url(./assets/background.jpg);
 }
 
 .section__promo {
@@ -449,7 +449,7 @@ body {
 /*Fin pagina de promos*/
 /*Inicio pagina contacto*/
 .main__contacto {
-  background-image: url(/assets/background.jpg);
+  background-image: url(./assets/background.jpg);
 }
 
 .contacto__title {
