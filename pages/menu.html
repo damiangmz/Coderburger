@@ -13,135 +13,162 @@
   <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
   <a class="btn__pedir" href="https://wa.me/2974081671">PEDÍ AHORA</a>
-  <header class="header">
-    <!--Inicio de navegador-->
-    <div>
-      <img class="img__menu" src="../assets/header3.jpg" alt="header">
-
-      <nav class="navbar">
-        <div class="navbar_container">
-          <ul class="navbar__ul">
-            <li><a href="../pages/promos.html">PROMOS</a></li>
-            <li><a href="../pages/menu.html">MENÚ</a></li>
+  <header>
+    <div class="container-fluid">
+      <img class="img__nos w-100" src="../assets/header3.jpg" alt="nosotros">
+      <nav class="navbar navbar-expand-lg position-absolute">
+        <a class="navbar-brand d-lg-none" href="../index.html">
+          <img class="img_bostr" src="../assets/Logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
+          aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="myNavbarToggler7">
+          <ul class="navbar-nav mx-auto container">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../pages/promos.html">PROMOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../pages/menu.html">MENÚ</a>
+            </li>
+            <a class="d-none d-lg-block" href="../index.html"><img class="img_bostr" src="../assets/Logo.png" /></a>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../pages/nosotros.html">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../pages/contacto.html">CONTACTO</a>
+            </li>
           </ul>
         </div>
-        <div class="logo__nav">
-          <a href="../index.html"><img class="nav__img" src="../assets/Logo.png" alt="logo" /></a>
-        </div>
-        <ul class="navbar__uld">
-          <li><a href="../pages/nosotros.html">NOSOTROS</a></li>
-          <li><a href="../pages/contacto.html">CONTACTO</a></li>
-        </ul>
       </nav>
-    </div>
   </header>
   <!--Inicio de navegador-->
   <main>
-    <section class="menu__section">
+    <section class="container-fluid align-items-center">
       <!--Inicio Seccion1-->
-      <div class="menu__section__container">
-        <h2 class="card__title">NUESTRA CARTA</h2>
-        <p>
-          Nuestras burgers están hechas con carne 100% carne de ternera, por eso no la mezclamos, para que disfrutes de
-          todo su sabor. Incluyen papas fritas o una ensaladita de hojas verdes.
-        </p>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="../assets/menu-burger1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">SIMPLE CHEESEBURGER</h5>
+              <p class="card-text">100g de carne de ternera, pan y cheddar. Simple y al pie!</p>
+              <form action="https://wa.me/2974081671">
+                <input class="btn" type="submit" value="QUIERO" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+                      <img class="card-img-top" src="../assets/menu-burger2.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">JIMMY</h5>
+                        <p class="card-text">170g de carne de terneta, cheddar, panceta, cebolla caramelizada, pepinillos y Ronnie
+                          BBQ.</p>
+                        <form action="https://wa.me/2974081671">
+                          <input class="btn" type="submit" value="QUIERO" />
+                        </form>
+                      </div>
+                    </div>
+            
+          
+
+        </div>
+        <div class="col">
+          <div class="card">
+                      <img class="card-img-top" src="../assets/menu-burger3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">AMY</h5>
+                        <p class="card-text">170g de carne de ternera, provoleta, tomate perita asado, rúcula y mayonesa de
+                          chimichurri.</p>
+                        <form action="https://wa.me/2974081671">
+                          <input class="btn" type="submit" value="QUIERO" />
+                        </form>
+                      </div>
+                    </div>
+            
+        </div>
+        <div class="col">
+          <div class="card">
+                      <img class="card-img-top" src="../assets/menu-burger4.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">TOTO</h5>
+                        <p class="card-text">Doble medallón de 170g de carne de ternera, pan negro, panceta crocante, cheddar y
+                          Ronnie BBQ.</p>
+                        <form action="https://wa.me/2974081671">
+                          <input class="btn" type="submit" value="QUIERO" />
+                        </form>
+                      </div>
+                    </div>
+            
+        </div>
       </div>
-      <div class="menu_section__title">
-        <h1>BURGERS</h1>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+                      <img class="card-img-top" src="../assets/menu-burger5.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">TRIPLE CHEESEBURGER</h5>
+                        <p class="card-text">Triple medallón de 100r carne de ternera y queso cheddar.</p>
+                        <form action="https://wa.me/2974081671">
+                          <input class="btn" type="submit" value="QUIERO" />
+                        </form>
+                      </div>
+                    </div>
+            
+        </div>
+        <div class="col">
+          <div class="card">
+                      <img class="card-img-top" src="../assets/menu-burger6.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">NORMAN</h5>
+                        <p class="card-text">170g carne de ternera, muzzarella, queso azul y cebolla crispy.</p>
+                        <form action="https://wa.me/2974081671">
+                          <input class="btn" type="submit" value="QUIERO" />
+                        </form>
+                      </div>
+                    </div>
+            
+        </div>
+        <div class="col">
+          <div class="card">
+                      <img class="card-img-top" src="../assets/menu-burger7.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">BILLIE</h5>
+                        <p class="card-text">170g de carne de ternera, muzzarella, ragout de hongos al vino tinto y crema dijón.</p>
+                        <form action="https://wa.me/2974081671">
+                          <input class="btn" type="submit" value="QUIERO" />
+                        </form>
+                      </div>
+                    </div>
+            
+        </div>
+        <div class="col">
+          <div class="card">
+                      <img class="card-img-top" src="../assets/menu-burger8.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">FREDDY</h5>
+                        <p class="card-text">170g de carne de ternera, cebolla caramelizada, queso brie, tomate perita asado, rúcula
+                          y mostaza.</p>
+                        <form action="https://wa.me/2974081671">
+                          <input class="btn" type="submit" value="QUIERO" />
+                        </form>
+                      </div>
+                    </div>
+            
+        </div>
       </div>
-      <!--Fin Seccion1-->
-      <section class="menu__section__card">
-        <!--Inicio Seccion 2 tarjetas-->
-        <div class="card">
-          <img class="card-img-top" src="../assets/menu-burger1.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">SIMPLE CHEESEBURGER</h5>
-            <p class="card-text">100g de carne de ternera, pan y cheddar. Simple y al pie!</p>
-            <form action="https://wa.me/2974081671">
-              <input class="btn" type="submit" value="QUIERO" />
-            </form>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="../assets/menu-burger2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">JIMMY</h5>
-            <p class="card-text">170g de carne de terneta, cheddar, panceta, cebolla caramelizada, pepinillos y Ronnie
-              BBQ.</p>
-            <form action="https://wa.me/2974081671">
-              <input class="btn" type="submit" value="QUIERO" />
-            </form>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="../assets/menu-burger3.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">AMY</h5>
-            <p class="card-text">170g de carne de ternera, provoleta, tomate perita asado, rúcula y mayonesa de
-              chimichurri.</p>
-            <form action="https://wa.me/2974081671">
-              <input class="btn" type="submit" value="QUIERO" />
-            </form>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="../assets/menu-burger4.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">TOTO</h5>
-            <p class="card-text">Doble medallón de 170g de carne de ternera, pan negro, panceta crocante, cheddar y
-              Ronnie BBQ.</p>
-            <form action="https://wa.me/2974081671">
-              <input class="btn" type="submit" value="QUIERO" />
-            </form>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="../assets/menu-burger5.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">TRIPLE CHEESEBURGER</h5>
-            <p class="card-text">Triple medallón de 100r carne de ternera y queso cheddar.</p>
-            <form action="https://wa.me/2974081671">
-              <input class="btn" type="submit" value="QUIERO" />
-            </form>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="../assets/menu-burger6.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">NORMAN</h5>
-            <p class="card-text">170g carne de ternera, muzzarella, queso azul y cebolla crispy.</p>
-            <form action="https://wa.me/2974081671">
-              <input class="btn" type="submit" value="QUIERO" />
-            </form>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="../assets/menu-burger7.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">BILLIE</h5>
-            <p class="card-text">170g de carne de ternera, muzzarella, ragout de hongos al vino tinto y crema dijón.</p>
-            <form action="https://wa.me/2974081671">
-              <input class="btn" type="submit" value="QUIERO" />
-            </form>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="../assets/menu-burger8.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">FREDDY</h5>
-            <p class="card-text">170g de carne de ternera, cebolla caramelizada, queso brie, tomate perita asado, rúcula
-              y mostaza.</p>
-            <form action="https://wa.me/2974081671">
-              <input class="btn" type="submit" value="QUIERO" />
-            </form>
-          </div>
-        </div>
-      </section>
-      <!--Fin Seccion 2 tarjetas-->
+
+    </section>
+    <!--Fin Seccion 2 tarjetas-->
     </section>
     <footer class="footer">
       <!--Inicio de footer-->

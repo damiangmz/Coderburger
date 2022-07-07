@@ -328,12 +328,6 @@ body {
 
 /*Fin index*/
 /* Inicio pagina menú*/
-.menu__section {
-  background-image: url(./assets/background.jpg);
-  text-align: center;
-  padding: 30px;
-  max-width: 100%;
-}
 
 .img__menu {
   max-width: 100%;
@@ -390,10 +384,7 @@ body {
 }
 
 /*aplicando grid en menu*/
-.menu__section__card {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  flex-wrap: wrap;
+
 }
 
 /* Incia pagina nosotros*/
