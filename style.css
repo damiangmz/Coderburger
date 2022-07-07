@@ -474,9 +474,8 @@ body {
 
 /*Fin pagina de promos*/
 /*Inicio pagina contacto*/
-.main__contacto {
-  background-image: url(./assets/background.jpg);
-}
+
+
 
 .contacto__title {
   color: rgb(255, 209, 6);
@@ -493,18 +492,6 @@ fieldset {
   margin-bottom: 30px;
   font-family: "Roboto Slab", serif;
   font-size: medium;
-}
-
-fieldset form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.section__contacto {
-  display: flex;
-  justify-content: center;
 }
 
 fieldset input {
