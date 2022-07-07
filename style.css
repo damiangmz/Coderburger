@@ -434,13 +434,7 @@ body {
   background-image: url(./assets/background.jpg);
 }
 
-.section__promo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
+
 
 .promo__box {
   display: flex;
