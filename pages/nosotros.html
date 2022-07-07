@@ -12,42 +12,54 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <script src="./js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
   <header>
     <!--Inicio del navegador-->
-    <header class="header">
-      <div class="header__video">
-        <img class="img__nos" src="../assets/header4.jpg" alt="nosotros">
-        <nav class="navbar">
-          <div class="navbar_container">
-            <ul class="navbar__ul">
-              <li><a href="../pages/promos.html">PROMOS</a></li>
-              <li><a href="../pages/menu.html">MENÚ</a></li>
+    <header>
+      <div class="container-fluid">
+        <img class="img__nos w-100" src="../assets/header4.jpg" alt="nosotros">
+        <nav class="navbar navbar-expand-lg position-absolute">
+          <a class="navbar-brand d-lg-none" href="../index.html">
+            <img class="" src="../assets/Logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler7"
+            aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="myNavbarToggler7">
+            <ul class="navbar-nav mx-auto container">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../pages/promos.html">PROMOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../pages/menu.html">MENÚ</a>
+              </li>
+              <a class="d-none d-lg-block" href="../index.html"><img class="img_bostr" src="../assets/Logo.png" /></a>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../pages/nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../pages/contacto.html">CONTACTO</a>
+              </li>
             </ul>
           </div>
-          <div>
-            <a href="../index.html"><img class="nav__img" src="../assets/Logo.png" alt="logo" /></a>
-          </div>
-          <ul class="navbar__uld">
-            <li><a href="../pages/nosotros.html">NOSOTROS</a></li>
-            <li><a href="../pages/contacto.html">CONTACTO</a></li>
-          </ul>
         </nav>
-      </div>
     </header>
+    </div>
     <!--Fin del navegador-->
     <main class="main__nosotros">
       <!--Inicio del main-->
-      <section class="section__nosotros">
+      <section class="section__nosotros container ">
         <!--Primera seccion quienes somos-->
         <div class="nosotros">
           <div class="nosotros__box">
-            <h1>¿Quiénes somos?</h1>
-            <p>Somos una empresa familiar fundada el 31 de julio de 1988, con alto conocimiento en la producción y venta
+            <h1 class="text-warning">¿Quiénes somos?</h1>
+            <p class="text-white h4 p-4">Somos una empresa familiar fundada el 31 de julio de 1988, con alto
+              conocimiento en la producción y venta
               de comidas rápidas, la experiencia adquirida a través de los años, nos da el conocimiento para valorar la
               importancia del cliente, quien es el motivo de nuestros esfuerzos, y así llegar a ustedes con la seguridad
               de poder ofrecerles nuestros productos de excelente calidad con responsabilidad y cumplimiento. Contamos
@@ -58,8 +70,9 @@
               satisfacción.</p>
           </div>
           <div>
-            <h1>Misión</h1>
-            <p>Tenemos como misión darles la excelencia a nuestros productos de comidas rápidas, nutritivos sanos y
+            <h1 class="text-warning">Misión</h1>
+            <p class="text-white h4 p-4">Tenemos como misión darles la excelencia a nuestros productos de comidas
+              rápidas, nutritivos sanos y
               frescos, en función de satisfacer las necesidades del consumo, proporcionando en forma permanente
               bienestar
               y calidad de vida. Entregamos a nuestros consumidores los productos que ellos prefieren y eligen por
@@ -67,8 +80,9 @@
               calidad y presentación.</p>
           </div>
           <div>
-            <h1>Visión</h1>
-            <p>Tenemos como visión consolidarnos como la mejor empresa a nivel nacional, en cuanto a la producción y
+            <h1 class="text-warning">Visión</h1>
+            <p class="text-white h4 p-4">Tenemos como visión consolidarnos como la mejor empresa a nivel nacional, en
+              cuanto a la producción y
               venta
               de comidas rápidas, apoyándonos en instalaciones con la más alta tecnología para el manejo de nuestros
               productos y contamos con personal altamente calificado manteniendo nuestro riguroso y estricto control de
@@ -77,9 +91,9 @@
         </div>
       </section>
       <!--Fin seccion quienes somos-->
-      <section>
+      <section class="container-fluid">
         <!--Segunda seccion equipo de trabajo-->
-        <div class="nosotros__card">
+        <div class="nosotros__card d-flex flex-sm-row flex-column ">
           <div class="card-deck">
             <div class="card__team">
               <img class="card-img-top" src="../assets/chef1.jpg" alt="Card image cap">
@@ -124,37 +138,38 @@
       </section>
       <!--Fin seccion trabajo en equipo-->
     </main>
-    <footer class="footer">
-      <!--Inicio de footer-->
-      <div class="footer__container">
-        <div class="container__box">
-          <a href="../index.html"><img class="nav__img2" src="../assets/Logo.png" alt="logo" /></a>
-          <p>
-            Hamburguesas caseras preparadas con dedicación, tiempo y amor. Acompañadas por la mejor bebida artesanal.
+    <footer class="container-fluid bg-dark p-4">
+      <div class="d-flex flex-sm-row justify-content-between flex-column text-center">
+        <div class="container__box text-center">
+          <a href="../index.html"><img class="nav__img2 p-1" src="../assets/Logo.png" alt="logo" /></a>
+          <p class="text-white p-3 ">
+            Hamburguesas caseras preparadas con dedicación, tiempo y amor.
+            Acompañadas por la mejor bebida artesanal.
           </p>
         </div>
-        <div class="footer__ul">
-          <ul>
+        <div>
+          <ul class="text-white text-center">
             <li><a href="../pages/promos.html">PROMOS</a></li>
             <li><a href="../pages/menu.html">MENÚ</a></li>
-            <li><a href="../pages/contacto.html">CONTACTO</a></li>
+            <li><a href="../pages/">CONTACTO</a></li>
           </ul>
         </div>
         <div>
-          <ul>
+          <ul class="text-white">
             <li>HORARIOS</li>
-            <li>Lunes a domingos de 11 a 23 hs </li>
+            <li>Lunes a domingos de 11 a 23 hs</li>
             <li>UBICACIÓN</li>
-            <li>San Martin 1588, Comodoro Rivadavia.</li>
+            <li>San Martín 1588, Comodoro Rivadavia.</li>
           </ul>
         </div>
+
       </div>
-      <div class="footer__icon">
-        <span class="jam jam-facebook-square"></span>
-        <span class="jam jam-instagram"></span>
-        <span class="jam jam-twitter-square"></span>
-      </div>
+      <div class="d-flex text-white h1 justify-content-center">
+        <span class="jam jam-facebook-square p-2 "></span>
+        <span class="jam jam-instagram p-2"></span>
+        <span class="jam jam-twitter-square p-2"></span>
     </footer>
+
 </body>
 
 </html>

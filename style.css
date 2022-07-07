@@ -415,16 +415,9 @@ body {
   justify-content: space-evenly;
   margin-top: 50px;
 }
-
-.section__nosotros p {
-  color: white;
-}
-
 .section__nosotros h1 {
-  color: rgb(255, 209, 6);
   font-family: "Roboto Slab", serif;
   font-size: xx-large;
-  padding: 50px;
 }
 
 .nosotros {
