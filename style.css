@@ -195,15 +195,6 @@ p {
 
 .section__title_ {
   font-family: "Roboto Slab", serif;
-  font-size: xx-large;
-
-  height: 80px;
-  text-align: center;
-  color: white;
-  display: grid;
-  grid-template-rows: 1fr;
-
-  padding: 10px;
 }
 
 .container__right {
@@ -223,10 +214,7 @@ p {
 
 .section__logo {
   background-color: rgb(255, 209, 6);
-  display: flex;
-  justify-content: space-evenly;
   padding: 100px;
-  text-align: center;
   font-family: "Roboto Slab", serif;
   color: rgb(163, 155, 155);
 }
