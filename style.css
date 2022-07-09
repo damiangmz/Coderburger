@@ -15,20 +15,18 @@ a {
   width: 100%;
 }
 
+
 .navbar {
   /*Barra de navegacion con grid area*/
-  position: absolute;
-  display: grid;
-  grid-template-areas: "promemu  logo  nosotrocon";
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  align-items: center;
-  top: 0px;
-  left: 0px;
-  right: 30px;
-
+ 
   font-family: "Roboto Slab", serif;
   font-size: x-large;
+}
+.navbar-toggler-icon{
+  background-color: rgb(255, 209, 6);
+}
+.navbar-toggler{
+  background-color: rgb(255, 209, 6);
 }
 
 .navbar__ul {
@@ -384,9 +382,6 @@ body {
 }
 
 /*aplicando grid en menu*/
-
-}
-
 /* Incia pagina nosotros*/
 .main__nosotros {
   background-image: url(./assets/background.jpg);
