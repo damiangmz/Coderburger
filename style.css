@@ -15,17 +15,16 @@ a {
   width: 100%;
 }
 
-
 .navbar {
   /*Barra de navegacion con grid area*/
- 
+
   font-family: "Roboto Slab", serif;
   font-size: x-large;
 }
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   background-color: rgb(255, 209, 6);
 }
-.navbar-toggler{
+.navbar-toggler {
   background-color: rgb(255, 209, 6);
 }
 
@@ -420,8 +419,6 @@ body {
   background-image: url(./assets/background.jpg);
 }
 
-
-
 .promo__box {
   display: flex;
   flex-direction: row;
@@ -454,8 +451,6 @@ body {
 
 /*Fin pagina de promos*/
 /*Inicio pagina contacto*/
-
-
 
 .contacto__title {
   color: rgb(255, 209, 6);
