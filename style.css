@@ -14,7 +14,12 @@ a {
 .header__video {
   width: 100%;
 }
-
+.nav_i{
+  
+  width: 100%;
+  background-image: url(./assets/fondo3.jpg);
+  background-size: cover;
+}
 .navbar {
   /*Barra de navegacion con grid area*/
 
