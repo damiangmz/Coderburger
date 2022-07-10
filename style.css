@@ -17,7 +17,7 @@ a {
 .nav_i{
   
   width: 100%;
-  background-image: url(./assets/fondo3.jpg);
+  background-image: url(./assets/background.jpg);
   background-size: cover;
 }
 .navbar {
@@ -27,10 +27,11 @@ a {
   font-size: x-large;
 }
 .navbar-toggler-icon {
-  background-color: rgb(255, 209, 6);
+  
+  
 }
 .navbar-toggler {
-  background-color: rgb(255, 209, 6);
+  background-color: white;
 }
 
 .navbar__ul {
@@ -123,7 +124,14 @@ li {
   overflow: hidden;
   max-width: 100%;
 }
+p{
+  font-size: 25px;
+}
 
+.caja__burg {
+  color: white;
+  
+}
 .card__box {
   margin-bottom: 50px;
   margin-top: 50px;
