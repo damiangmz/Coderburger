@@ -252,7 +252,7 @@ p {
   padding: 20px;
 }
 /*gradiante*/
-.footer {
+footer {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
@@ -774,8 +774,27 @@ fieldset textarea {
   ;
     
   }
+@media (max-width: 768px) {
+  .sec_1{
+    padding: 0px; 
+   } 
+   
+   .sec_burg{
+     margin: 0px;  
+   }
+  
+}
 
-
+@media (max-width: 1024px) {
+  .sec_1{
+    padding: 0px; 
+   } 
+   
+   .sec_burg{
+     margin: 0px;  
+   }
+  
+}
 
 
 
@@ -819,3 +838,13 @@ fieldset textarea {
     }
 
     }
+@media (max-width: 1440px) {
+  .sec_1{
+    padding: 0px; 
+   } 
+   
+   .sec_burg{
+     margin: 0px;  
+   }
+  
+}
