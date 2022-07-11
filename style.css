@@ -468,6 +468,9 @@ body {
 .left__ {
   padding: 50px;
 }
+.img__promo{
+  width: 100%;
+}
 
 /*Fin pagina de promos*/
 /*Inicio pagina contacto*/
@@ -733,6 +736,11 @@ fieldset textarea {
   .img__promo {
     width: 100%;
   }
+  .promo__box{
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
   /*Fin pag promo*/
   /*Inicio pag nosotros*/
@@ -770,13 +778,16 @@ fieldset textarea {
   
 }
 
+
 @media (max-width: 575px) {
   .container__box{
     display: flex;
     flex-direction: column;
     max-width: 100%;
   }
-  ;
+  body{
+    margin-top: 60px;
+  }
     
   }
 @media (max-width: 768px) {
@@ -787,6 +798,13 @@ fieldset textarea {
    .sec_burg{
      margin: 0px;  
    }
+  .left_sec_b{
+    padding: 30px;
+    text-align: center;
+  }
+  body{
+    margin-top: 60px;
+  }
   
 }
 
@@ -799,6 +817,9 @@ fieldset textarea {
      margin: 0px;  
    }
   
+  body{
+    margin-top: 60px;
+  }
 }
 
 
@@ -822,6 +843,12 @@ fieldset textarea {
     flex-direction: column;
     width: 100%;
 
+}
+/*promo*/
+.promo__box{
+  display:grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
 }
 
   }
