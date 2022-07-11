@@ -17,7 +17,7 @@ a {
 .nav_i{
   
   width: 100%;
-  background-image: url(./assets/background.jpg);
+  background-image: url(./assets/background.webp);
   background-size: cover;
 }
 .navbar {
@@ -197,7 +197,7 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-image: url(./assets/background.jpg);
+  
 }
 
 .section__title {
@@ -206,7 +206,7 @@ p {
   height: 80px;
   text-align: center;
   color: white;
-  background-image: url(./assets/background.jpg);
+  
   display: grid;
   grid-template-rows: 1fr;
 }
@@ -281,9 +281,13 @@ footer ul {
   flex-direction: column;
 }
 
+
+
 body {
-  background-image: url(./assets/background.jpg);
+  background-image: url(./assets/background.webp);
+  background-size: contain;
 }
+
 
 .footer__icon {
   color: white;
@@ -305,6 +309,11 @@ body {
   font-size: 22px;
   z-index: 100;
 }
+.hov:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.1);
+}
+
+
 /*boostrap*/
 
 .img_bostr {
@@ -397,9 +406,7 @@ body {
 
 /*aplicando grid en menu*/
 /* Incia pagina nosotros*/
-.main__nosotros {
-  background-image: url(./assets/background.jpg);
-}
+
 
 .card-deck {
   width: 550px;
@@ -430,9 +437,7 @@ body {
 
 /*Fin pagina nosotros*/
 /*Inicio pagina promos*/
-.main__promo {
-  background-image: url(./assets/background.jpg);
-}
+
 
 .promo__box {
   display: flex;
