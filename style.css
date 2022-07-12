@@ -6,19 +6,14 @@
 
 /*Inicia index*/
 
-.hov1{
-  background:
-    linear-gradient(
-      to right,
-      rgb(0, 8, 8),
-      rgb(154, 165, 165)
-    ),
+.hov1 {
+  background: linear-gradient(to right, rgb(0, 8, 8), rgb(154, 165, 165)),
     linear-gradient(
       to right,
       rgba(255, 0, 0, 1),
       rgb(241, 136, 15),
       rgb(238, 255, 7)
-  );
+    );
   background-size: 100% 3px, 0 3px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -300,6 +295,10 @@ body {
   font-size: xxx-large;
   text-align: center;
 }
+footer a {
+  text-decoration: none;
+  color: white;
+}
 
 .btn__pedir {
   position: fixed;
@@ -359,7 +358,7 @@ body {
 .img__menu {
   max-width: 100%;
 }
-.sec_c{
+.sec_c {
   padding-top: 50px;
   padding-right: 0px;
   padding-left: 0px;
@@ -551,28 +550,27 @@ fieldset textarea {
 }
 
 @media (max-width: 320px) {
-  .men_c{
-    margin: 0px 0px 10px!important;
-    
+  .men_c {
+    margin: 0px 0px 10px !important;
   }
   .navbar__ul {
     display: grid;
     font-size: 15px;
     grid-template-rows: 1fr 1fr;
   }
-  .text_cont{
+  .text_cont {
     text-align: center;
   }
-  fieldset input{
+  fieldset input {
     width: 80%;
   }
-  fieldset textarea{
+  fieldset textarea {
     width: 80%;
   }
-  fieldset label{
+  fieldset label {
     text-align: center;
   }
-  fieldset{
+  fieldset {
     width: 100% !important;
   }
   .men {
@@ -807,19 +805,16 @@ fieldset textarea {
     width: 100%;
   }
 }
-@media (max-width: 425px)  {
-  fieldset textarea{
+@media (max-width: 425px) {
+  fieldset textarea {
     width: 80%;
   }
-  
 }
 @media (max-width: 425px) {
-  fieldset{
+  fieldset {
     width: 80%;
     min-width: 100%;
   }
-  
-  
 }
 @media (max-width: 575px) {
   .container__box {
@@ -854,17 +849,16 @@ fieldset textarea {
     justify-content: center;
     justify-items: center;
   }
-  .cdeck{
+  .cdeck {
     width: 100%;
   }
-  
-  fieldset{
+
+  fieldset {
     width: 80%;
   }
-  .text_cont{
+  .text_cont {
     text-align: center;
   }
- 
 }
 
 @media (max-width: 1024px) {
@@ -885,10 +879,9 @@ fieldset textarea {
   .sec_burg {
     margin: 0px;
   }
-  .cdeck{
+  .cdeck {
     width: 100%;
   }
-  
 
   body {
     margin-top: 60px;
