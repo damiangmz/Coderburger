@@ -800,6 +800,10 @@ fieldset textarea {
     justify-content: center;
     justify-items: center;
   }
+  .cdeck{
+    width: 100%;
+  }
+  
 }
 
 @media (max-width: 1024px) {
@@ -820,6 +824,10 @@ fieldset textarea {
   .sec_burg {
     margin: 0px;
   }
+  .cdeck{
+    width: 100%;
+  }
+  
 
   body {
     margin-top: 60px;
