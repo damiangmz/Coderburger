@@ -14,8 +14,7 @@ a {
 .header__video {
   width: 100%;
 }
-.nav_i{
-  
+.nav_i {
   width: 100%;
   background-image: url(./assets/background.webp);
   background-size: cover;
@@ -26,8 +25,6 @@ a {
   font-family: "Roboto Slab", serif;
   font-size: x-large;
 }
-
-  
 
 .navbar-toggler {
   background-color: white;
@@ -87,7 +84,7 @@ li {
 .img2 {
   width: 100%;
 }
-.text_en h1{
+.text_en h1 {
   font-size: 5vw;
 }
 .card__left {
@@ -100,7 +97,7 @@ li {
   text-align: center;
   padding: 20px;
 }
-.sec_burg .sec_burg_1{
+.sec_burg .sec_burg_1 {
   background-color: rgb(255, 209, 6);
 }
 /*animacion*/
@@ -129,16 +126,14 @@ li {
   overflow: hidden;
   max-width: 100%;
 }
-p{
+p {
   font-size: 25px;
 }
-.caja__burg h3{
-  color:  rgb(255, 209, 6);
-
+.caja__burg h3 {
+  color: rgb(255, 209, 6);
 }
 .caja__burg {
   color: white;
-  
 }
 .card__box {
   margin-bottom: 50px;
@@ -197,7 +192,6 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  
 }
 
 .section__title {
@@ -206,7 +200,7 @@ p {
   height: 80px;
   text-align: center;
   color: white;
-  
+
   display: grid;
   grid-template-rows: 1fr;
 }
@@ -236,8 +230,6 @@ p {
   padding-bottom: 50px;
   font-family: "Roboto Slab", serif;
   color: rgb(163, 155, 155);
-  
-  
 }
 
 .logo__section {
@@ -281,13 +273,10 @@ footer ul {
   flex-direction: column;
 }
 
-
-
 body {
   background-image: url(./assets/background.webp);
   background-size: contain;
 }
-
 
 .footer__icon {
   color: white;
@@ -309,10 +298,10 @@ body {
   font-size: 22px;
   z-index: 100;
 }
-.hov:hover{
-  -webkit-transform:scale(1.3);transform:scale(1.1);
+.hov:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.1);
 }
-
 
 /*boostrap*/
 
@@ -322,7 +311,7 @@ body {
   margin-right: 80px;
   margin-left: 80px;
 }
-.nav-link{
+.nav-link {
   font-size: 18px;
 }
 /*Grids index*/
@@ -369,12 +358,13 @@ body {
 .card {
   width: 288px;
   background-color: rgb(255, 209, 6);
-  padding: 15px;
   box-shadow: 1px 1px 6px rgb(255, 249, 249);
   border: rgb(3, 3, 3);
   margin-bottom: 45px;
 }
-
+.card form {
+  text-align: center;
+}
 .card-body {
   background-color: rgb(255, 209, 6);
   padding: 20px;
@@ -407,7 +397,6 @@ body {
 /*aplicando grid en menu*/
 /* Incia pagina nosotros*/
 
-
 .card-deck {
   width: 550px;
   background-color: rgb(255, 209, 6);
@@ -438,7 +427,6 @@ body {
 /*Fin pagina nosotros*/
 /*Inicio pagina promos*/
 
-
 .promo__box {
   display: flex;
   flex-direction: row;
@@ -468,7 +456,7 @@ body {
 .left__ {
   padding: 50px;
 }
-.img__promo{
+.img__promo {
   width: 100%;
 }
 
@@ -534,13 +522,11 @@ fieldset textarea {
 .img__prom {
   max-width: 100%;
 }
-.social_cont{
+.social_cont {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  
 }
-
 
 @media (max-width: 320px) {
   .navbar__ul {
@@ -548,21 +534,25 @@ fieldset textarea {
     font-size: 15px;
     grid-template-rows: 1fr 1fr;
   }
-  .sec_1{
-   padding: 0px; 
-  } 
-  
-  .sec_burg{
-    margin: 0px;  
+  .men {
+    display: block;
+    flex-direction: column;
   }
-  
-  body{
+  .sec_1 {
+    padding: 0px;
+  }
+
+  .sec_burg {
+    margin: 0px;
+  }
+
+  body {
     padding-top: 120px;
   }
- .video{
-  width:100%;
- }
- 
+  .video {
+    width: 100%;
+  }
+
   .navbar__uld {
     font-size: 15px;
   }
@@ -736,7 +726,7 @@ fieldset textarea {
   .img__promo {
     width: 100%;
   }
-  .promo__box{
+  .promo__box {
     margin: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -775,108 +765,123 @@ fieldset textarea {
   fieldset {
     width: 100%;
   }
-  
 }
 
-
 @media (max-width: 575px) {
-  .container__box{
+  .container__box {
     display: flex;
     flex-direction: column;
     max-width: 100%;
   }
-  body{
+  body {
     margin-top: 60px;
   }
-    
-  }
+}
 @media (max-width: 768px) {
-  .sec_1{
-    padding: 0px; 
-   } 
-   
-   .sec_burg{
-     margin: 0px;  
-   }
-  .left_sec_b{
+  .sec_1 {
+    padding: 0px;
+  }
+  .row {
+    padding: 0px;
+  }
+
+  .sec_burg {
+    margin: 0px;
+  }
+  .left_sec_b {
     padding: 30px;
     text-align: center;
   }
-  body{
+  body {
     margin-top: 60px;
   }
-  
+  .menu_sec col {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
 }
 
 @media (max-width: 1024px) {
-  .sec_1{
-    padding: 0px; 
-   } 
-   
-   .sec_burg{
-     margin: 0px;  
-   }
-  
-  body{
+  .sec_1 {
+    padding: 0px;
+  }
+  .card-deck {
+  }
+  .nosotros__card {
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    margin: 0px;
+  }
+  .card__team {
+    width: 100%;
+  }
+
+  .sec_burg {
+    margin: 0px;
+  }
+
+  body {
     margin-top: 60px;
+  }
+  .card {
+    margin: 0px;
+    padding: 0px;
+  }
+  .col {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
   }
 }
 
-
-
-
 @media (max-width: 1055px) {
-  .sec_burg{
+  .sec_burg {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-.sec_burg_1{
-  width: 100%;
-}
-.caja__burg h3{
-  text-align: center;
-
-}
-.deli_sec{
-  display: flex;
+  .sec_burg_1 {
+    width: 100%;
+  }
+  .caja__burg h3 {
+    text-align: center;
+  }
+  .deli_sec {
+    display: flex;
     flex-direction: column;
     width: 100%;
-
+  }
+  /*promo*/
+  .promo__box {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
 }
-/*promo*/
-.promo__box{
-  display:grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
-}
 
+@media (max-width: 1162px) {
+  .social_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social_box {
+    justify-items: center;
+    align-items: center;
+  }
+  .img_soc {
+    width: 50%;
+    padding: 20px;
+  }
+}
+@media (max-width: 1440px) {
+  .sec_1 {
+    padding: 0px;
   }
 
-  @media (max-width: 1162px) {
-    .social_cont{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .social_box{
-      justify-items: center;
-      align-items: center;
-     
-    }
-    .img_soc{
-      width: 50%;
-      padding: 20px;
-    }
-
-    }
-@media (max-width: 1440px) {
-  .sec_1{
-    padding: 0px; 
-   } 
-   
-   .sec_burg{
-     margin: 0px;  
-   }
-  
+  .sec_burg {
+    margin: 0px;
+  }
 }
