@@ -534,6 +534,21 @@ fieldset textarea {
     font-size: 15px;
     grid-template-rows: 1fr 1fr;
   }
+  .text_cont{
+    text-align: center;
+  }
+  fieldset input{
+    width: 80%;
+  }
+  fieldset textarea{
+    width: 80%;
+  }
+  fieldset label{
+    text-align: center;
+  }
+  fieldset{
+    width: 100% !important;
+  }
   .men {
     display: block;
     flex-direction: column;
@@ -766,7 +781,20 @@ fieldset textarea {
     width: 100%;
   }
 }
-
+@media (max-width: 425px)  {
+  fieldset textarea{
+    width: 80%;
+  }
+  
+}
+@media (max-width: 425px) {
+  fieldset{
+    width: 80%;
+    min-width: 100%;
+  }
+  
+  
+}
 @media (max-width: 575px) {
   .container__box {
     display: flex;
@@ -804,6 +832,13 @@ fieldset textarea {
     width: 100%;
   }
   
+  fieldset{
+    width: 80%;
+  }
+  .text_cont{
+    text-align: center;
+  }
+ 
 }
 
 @media (max-width: 1024px) {
