@@ -342,6 +342,11 @@ body {
 .img__menu {
   max-width: 100%;
 }
+.sec_c{
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
 
 .menu__section__container p {
   color: white;
@@ -529,6 +534,10 @@ fieldset textarea {
 }
 
 @media (max-width: 320px) {
+  .men_c{
+    margin: 0px 0px 10px!important;
+    
+  }
   .navbar__ul {
     display: grid;
     font-size: 15px;
