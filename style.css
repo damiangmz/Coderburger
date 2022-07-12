@@ -6,9 +6,26 @@
 
 /*Inicia index*/
 
-a {
-  text-decoration: none;
-  color: white;
+.hov1{
+  background:
+    linear-gradient(
+      to right,
+      rgb(0, 8, 8),
+      rgb(154, 165, 165)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgb(241, 136, 15),
+      rgb(238, 255, 7)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: 400ms;
+}
+.hov1:hover {
+  background-size: 0 3px, 100% 3px;
 }
 
 .header__video {
