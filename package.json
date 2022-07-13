@@ -1,0 +1,22 @@
+{
+  "name": "coderburger-damian-gomez",
+  "version": "1.0.0",
+  "description": "Proyecto Coder House",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damiangmz/Coderburger.git"
+  },
+  "author": "Damian Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damiangmz/Coderburger/issues"
+  },
+  "homepage": "https://github.com/damiangmz/Coderburger#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
