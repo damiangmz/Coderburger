@@ -1,0 +1,78 @@
+.header {
+    &__nav {
+        width: 100%;
+        background-image: url(../assets/background.webp);
+        background-size: cover;
+
+        &__ul li {
+            display: inline-block;
+            padding: 40px;
+        }
+
+        &__ul-hov {
+            background: linear-gradient(to right, rgb(0, 8, 8), rgb(154, 165, 165)),
+                linear-gradient(to right,
+                    rgba(255, 0, 0, 1),
+                    rgb(241, 136, 15),
+                    rgb(238, 255, 7));
+            background-size: 100% 3px, 0 3px;
+            background-position: 100% 100%, 0 100%;
+            background-repeat: no-repeat;
+            transition: 400ms;
+
+            &:hover {
+                background-size: 0 3px, 100% 3px;
+            }
+        }
+    }
+}
+
+.btn__pedir {
+    position: fixed;
+    width: 120px;
+    height: 35px;
+    border-radius: 80px 0px 0px 90px;
+    bottom: 20px;
+    right: 0px;
+    background-color: $amarillo;
+    color: black;
+    font-family: "Anton", sans-serif;
+    text-align: center;
+    font-size: 22px;
+    z-index: 100;
+
+}
+
+body {
+    background-image: url(../assets/background.webp);
+    background-size: contain;
+}
+
+.main {
+    &__section {
+        &__img-1 {
+            width: 100%;
+        }
+
+        &__box {
+            display: flex;
+            flex-direction: row;
+            justify-content: stretch;
+            padding: 20px;
+
+            &__card {
+                background-color: $amarillo;
+                width: 300px;
+                height: 300px;
+                padding: 20px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+        }
+
+    }
+
+}

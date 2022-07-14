@@ -1,0 +1,51 @@
+.header__nav {
+  width: 100%;
+  background-image: url(../assets/background.webp);
+  background-size: cover; }
+  .header__nav__ul li {
+    display: inline-block;
+    padding: 40px; }
+  .header__nav__ul-hov {
+    background: linear-gradient(to right, #000808, #9aa5a5), linear-gradient(to right, red, #f1880f, #eeff07);
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: 400ms; }
+    .header__nav__ul-hov:hover {
+      background-size: 0 3px, 100% 3px; }
+
+.btn__pedir {
+  position: fixed;
+  width: 120px;
+  height: 35px;
+  border-radius: 80px 0px 0px 90px;
+  bottom: 20px;
+  right: 0px;
+  background-color: #ffd106;
+  color: black;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  z-index: 100; }
+
+body {
+  background-image: url(../assets/background.webp);
+  background-size: contain; }
+
+.main__section__img-1 {
+  width: 100%; }
+
+.main__section__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  padding: 20px; }
+  .main__section__box__card {
+    background-color: #ffd106;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; }

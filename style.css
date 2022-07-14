@@ -6,7 +6,7 @@
 
 /*Inicia index*/
 
-.hov1 {
+.header__nav__ul-hov {
   background: linear-gradient(to right, rgb(0, 8, 8), rgb(154, 165, 165)),
     linear-gradient(
       to right,
@@ -19,14 +19,14 @@
   background-repeat: no-repeat;
   transition: 400ms;
 }
-.hov1:hover {
+.header__nav__ul-hov:hover {
   background-size: 0 3px, 100% 3px;
 }
 
 .header__video {
   width: 100%;
 }
-.nav_i {
+.header__nav {
   width: 100%;
   background-image: url(./assets/background.webp);
   background-size: cover;
@@ -448,14 +448,14 @@ footer a {
 /*Fin pagina nosotros*/
 /*Inicio pagina promos*/
 
-.promo__box {
+.main__section__box {
   display: flex;
   flex-direction: row;
   justify-content: stretch;
   padding: 20px;
 }
 
-.promo__box__left {
+.main__section__box__card {
   background-color: rgb(255, 209, 6);
   width: 300px;
   height: 300px;
@@ -466,18 +466,18 @@ footer a {
   justify-content: center;
 }
 
-.promo__box__left h5 {
+.main__section__box__card h5 {
   color: white;
 }
 
-.promo__box__left h2 {
+.main__section__box__card h2 {
   color: white;
 }
 
-.left__ {
+.main__section__box__card-left {
   padding: 50px;
 }
-.img__promo {
+.main__section__img-1 {
   width: 100%;
 }
 
@@ -540,7 +540,7 @@ fieldset textarea {
   max-width: 100%;
 }
 
-.img__prom {
+.main__section__img-1 {
   max-width: 100%;
 }
 .social_cont {
@@ -757,15 +757,15 @@ fieldset textarea {
 
   /*fin pag menu*/
   /*Inicio pag promo*/
-  .promo__box {
+  .main__section__box {
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  .img__promo {
+  .main__section__img-1 {
     width: 100%;
   }
-  .promo__box {
+  .main__section__box {
     margin: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -915,7 +915,7 @@ fieldset textarea {
     width: 100%;
   }
   /*promo*/
-  .promo__box {
+  .main__section__box {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
