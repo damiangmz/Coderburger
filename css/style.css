@@ -49,3 +49,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center; }
+    .main__section__box__card h2 {
+      color: white; }
+    .main__section__box__card h5 {
+      color: white; }
+    .main__section__box__card-left {
+      padding: 50px; }
+
+.footer {
+  background: black;
+  background: linear-gradient(0deg, black 0%, #5e5d5b 0%, #050300 100%);
+  padding: 50px;
+  color: white; }
+  .footer li {
+    padding: 15px;
+    list-style: none; }
+  .footer ul {
+    display: flex;
+    flex-direction: column; }
+  .footer a {
+    text-decoration: none;
+    color: white; }
+  .footer__box {
+    max-width: 300px; }
+    .footer__box-img {
+      width: 180px;
+      height: 160px; }

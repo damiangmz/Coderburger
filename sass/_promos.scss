@@ -70,9 +70,57 @@ body {
                 align-items: center;
                 justify-content: center;
 
+                h2 {
+                    color: white;
+                }
+
+                h5 {
+                    color: white;
+                }
+
+                &-left {
+                    padding: 50px
+                }
+
             }
         }
 
+    }
+
+}
+
+.footer {
+    li{
+        padding: 15px;
+        list-style: none;
+        
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(94, 93, 91, 1) 0%,
+        rgba(5, 3, 0, 1) 100%);
+    padding: 50px;
+    color: white;
+
+    &__box {
+        max-width: 300px;
+
+        &-img {
+            width: 180px;
+            height: 160px;
+
+        }
     }
 
 }

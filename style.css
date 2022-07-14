@@ -74,7 +74,7 @@ li {
   height: 160px;
 }
 
-.nav__img2 {
+.footer__box-img {
   width: 180px;
   height: 160px;
 }
@@ -276,7 +276,7 @@ footer {
   padding: 20px;
 }
 
-.container__box {
+.footer__box {
   max-width: 300px;
 }
 
@@ -817,7 +817,7 @@ fieldset textarea {
   }
 }
 @media (max-width: 575px) {
-  .container__box {
+  .footer__box {
     display: flex;
     flex-direction: column;
     max-width: 100%;
