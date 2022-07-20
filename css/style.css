@@ -61,7 +61,12 @@ body {
   background: linear-gradient(0deg, black 0%, #5e5d5b 0%, #050300 100%);
   padding: 50px;
   color: white;
-  /*mapa y bucle*/ }
+  /*inicio mapa y bucle*/
+  /*fin mapa y bucle*/
+  /*inicio extend*/
+  /*fin extend*/
+  /*inicio mixin*/
+  /*fin mixin*/ }
   .footer li {
     padding: 15px;
     list-style: none; }
@@ -85,3 +90,7 @@ body {
   .footer__li, .footer__promo a {
     color: #ffd106;
     font-size: 18px; }
+  .footer .ubi {
+    color: red;
+    font-size: 20px;
+    background-color: white; }

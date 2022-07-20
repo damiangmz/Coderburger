@@ -116,6 +116,7 @@ body {
 
     &__box {
         max-width: 300px;
+        
 
         &-img {
             width: 180px;
@@ -123,7 +124,7 @@ body {
         
         }
     }
-/*mapa y bucle*/
+/*inicio mapa y bucle*/
     $redesSociales: (
         facebook: #3b5998,
         instagram: #bd1075,
@@ -135,7 +136,8 @@ body {
         }
         
     }
-
+/*fin mapa y bucle*/
+/*inicio extend*/
     &__li{
         color: $amarillo;
         font-size: 18px;
@@ -143,8 +145,19 @@ body {
     
     &__promo a{
         @extend .footer__li;
-    }
-
-          
+    };
+/*fin extend*/
+/*inicio mixin*/
+@mixin texto-p {
+    color: red;
+    font-size: 20px;
+    background-color: white;
     
+    
+}
+
+.ubi{
+    @include texto-p();
+}
+ /*fin mixin*/   
 }
