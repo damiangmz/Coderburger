@@ -90,6 +90,7 @@ body {
 }
 
 .footer {
+   
     li{
         padding: 15px;
         list-style: none;
@@ -119,8 +120,21 @@ body {
         &-img {
             width: 180px;
             height: 160px;
-
+        
         }
     }
 
+    $redesSociales: (
+        facebook: #3b5998,
+        instagram: #bd1075,
+        twitter:#00acee,
+    );
+    @each $nombre, $color in $redesSociales {
+        .link-#{$nombre}{
+            color: $color
+        }
+        
+    }
+          
+    
 }

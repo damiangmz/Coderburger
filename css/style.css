@@ -75,3 +75,9 @@ body {
     .footer__box-img {
       width: 180px;
       height: 160px; }
+  .footer .link-facebook {
+    color: #3b5998; }
+  .footer .link-instagram {
+    color: #bd1075; }
+  .footer .link-twitter {
+    color: #00acee; }
