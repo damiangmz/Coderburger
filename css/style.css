@@ -60,7 +60,8 @@ body {
   background: black;
   background: linear-gradient(0deg, black 0%, #5e5d5b 0%, #050300 100%);
   padding: 50px;
-  color: white; }
+  color: white;
+  /*mapa y bucle*/ }
   .footer li {
     padding: 15px;
     list-style: none; }
@@ -81,3 +82,6 @@ body {
     color: #bd1075; }
   .footer .link-twitter {
     color: #00acee; }
+  .footer__li, .footer__promo a {
+    color: #ffd106;
+    font-size: 18px; }

@@ -123,7 +123,7 @@ body {
         
         }
     }
-
+/*mapa y bucle*/
     $redesSociales: (
         facebook: #3b5998,
         instagram: #bd1075,
@@ -135,6 +135,16 @@ body {
         }
         
     }
+
+    &__li{
+        color: $amarillo;
+        font-size: 18px;
+    }
+    
+    &__promo a{
+        @extend .footer__li;
+    }
+
           
     
 }
