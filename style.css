@@ -54,7 +54,7 @@
   grid-area: nosotrocon;
 }
 
-video {
+.header__video {
   width: 100%;
 }
 
@@ -93,7 +93,7 @@ li {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.img2 {
+.main__sec1__box-2-img {
   width: 100%;
 }
 .text_en h1 {
@@ -109,7 +109,7 @@ li {
   text-align: center;
   padding: 20px;
 }
-.sec_burg .sec_burg_1 {
+.main__sec1__box .sec_burg_1 {
   background-color: rgb(255, 209, 6);
 }
 /*animacion*/
@@ -134,17 +134,17 @@ li {
   }
 }
 
-.card__right {
+.main__sec1__box-2 {
   overflow: hidden;
   max-width: 100%;
 }
 p {
   font-size: 25px;
 }
-.caja__burg h3 {
+.seccion2__caja  h3 {
   color: rgb(255, 209, 6);
 }
-.caja__burg {
+.seccion2__caja  {
   color: white;
 }
 .card__box {
@@ -217,7 +217,7 @@ p {
   grid-template-rows: 1fr;
 }
 
-.section__title_ {
+.section__title_3 {
   font-family: "Roboto Slab", serif;
 }
 
@@ -543,7 +543,7 @@ fieldset textarea {
 .main__section__img-1 {
   max-width: 100%;
 }
-.social_cont {
+.social__box__img {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -577,11 +577,11 @@ fieldset textarea {
     display: block;
     flex-direction: column;
   }
-  .sec_1 {
+  .main__sec1 {
     padding: 0px;
   }
 
-  .sec_burg {
+  .main__sec1__box {
     margin: 0px;
   }
 
@@ -611,7 +611,7 @@ fieldset textarea {
     height: 850px;
   }
 
-  .img2 {
+  .main__sec1__box-2-img {
     max-width: 100%;
     max-height: 100%;
   }
@@ -649,7 +649,7 @@ fieldset textarea {
     grid-template-columns: auto;
   }
 
-  .caja__burg {
+  .seccion2__caja  {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -672,7 +672,7 @@ fieldset textarea {
     align-items: center;
   }
 
-  .section__title_ {
+  .section__title3 {
     font-size: 25px;
     text-align: center;
     align-items: center;
@@ -827,17 +827,17 @@ fieldset textarea {
   }
 }
 @media (max-width: 768px) {
-  .sec_1 {
+  .main__sec1 {
     padding: 0px;
   }
   .row {
     padding: 0px;
   }
 
-  .sec_burg {
+  .main__sec1__box {
     margin: 0px;
   }
-  .left_sec_b {
+  .seccion2 {
     padding: 30px;
     text-align: center;
   }
@@ -862,7 +862,7 @@ fieldset textarea {
 }
 
 @media (max-width: 1024px) {
-  .sec_1 {
+  .main__sec1 {
     padding: 0px;
   }
 
@@ -876,7 +876,7 @@ fieldset textarea {
     width: 100%;
   }
 
-  .sec_burg {
+  .main__sec1__box {
     margin: 0px;
   }
   .cdeck {
@@ -898,7 +898,7 @@ fieldset textarea {
 }
 
 @media (max-width: 1055px) {
-  .sec_burg {
+  .main__sec1__box {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -906,7 +906,7 @@ fieldset textarea {
   .sec_burg_1 {
     width: 100%;
   }
-  .caja__burg h3 {
+  .seccion2__caja  h3 {
     text-align: center;
   }
   .deli_sec {
@@ -923,12 +923,12 @@ fieldset textarea {
 }
 
 @media (max-width: 1162px) {
-  .social_cont {
+  .social__box__img {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .social_box {
+  .social__box {
     justify-items: center;
     align-items: center;
   }
@@ -938,11 +938,11 @@ fieldset textarea {
   }
 }
 @media (max-width: 1440px) {
-  .sec_1 {
+  .main__sec1 {
     padding: 0px;
   }
 
-  .sec_burg {
+  .main__sec1__box {
     margin: 0px;
   }
 }

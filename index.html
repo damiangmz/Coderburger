@@ -14,21 +14,21 @@
   <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <a class="btn__pedir" href="https://wa.me/2974081671">PEDÍ AHORA</a>
   <!--Inicio del navegador-->
   <header>
-    <video class="video position-relative" src="./assets/video-header.mp4 " loop muted autoplay></video>
-    <nav class="navbar navbar-expand-lg nav_i position-absolute top-0">
+    <video class="header__video position-relative" src="./assets/video-header.mp4 " loop muted autoplay></video>
+    <nav class="navbar navbar-expand-lg nav_i position-absolute top-0 header__nav">
       <div class="container">
         <a class="logocabecera" href="./index.html"><img src="./assets/Logo.webp" alt="Logo" height="100" width="100"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse header__nav__ul" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link text-white header__nav__ul-hov" href="./pages/promos.html">PROMOS</a>
@@ -51,18 +51,18 @@
 
   <!--Fin del navegador-->
   <main>
-    <section class="container-fluid sec_1 ">
+    <section class="container-fluid main__sec1 ">
       <!--seccion 1-->
       <!--Seccion 1-->
-      <div class="row sec_burg">
-        <div class="col-lg-6 d-flex flex-column sec_burg_1">
+      <div class="row main__sec1__box">
+        <div class="col-lg-6 d-flex flex-column row main__sec1__box-1">
           <div class="">
             <h2 class="card__subtitle text-center p-4 mt-4">CONOCÉ NUESTRO MENÚ</h2>
             <h1 class="card__title text-center">WE MAKE BURGERS</h1>
           </div>
           <div class="">
             <p class="text-center text-break ">
-              Nuestras burgers están hechas 100% con carne vacuna, pan
+              Nuestras Hamburguesas están hechas 100% con carne vacuna, pan
               casero que horneamos todos los días y una selección de
               ingredientes que las hacen únicas. Incluyen papas o una
               ensaladita de mix de hojas verdes.
@@ -74,37 +74,37 @@
             </form>
           </div>
         </div>
-        <div class="col-lg-6 sec_burg_1 ">
-          <div class="card__right">
+        <div class="col-lg-6 main__sec1__box">
+          <div class="main__sec1__box-2">
             <!--Inicio de tarjeta derecha-->
-            <img class="img2 img-fluid " src="./assets/burger7.webp" alt="hamburguesa" />
+            <img class="main__sec1__box-2-img img-fluid " src="./assets/burger7.webp" alt="hamburguesa" />
           </div>
         </div>
       </div>
 
-      <section class="container-fluid d-flex flex-lg-row flex-column left_sec_b">
+      <section class="container-fluid d-flex flex-lg-row flex-column seccion2">
         <!--seccion 2-->
-        <div class="justify-content-center container left_burger">
+        <div class="justify-content-center container">
           <img class="burger__left img-fluid" src="./assets/burgerseccion1.webp" alt="burgersec" />
         </div>
         <div class="container d-flex flex-column
          justify-content-center">
-          <div class="caja__burg mt-4 text-break">
+          <div class="seccion2__caja mt-4 text-break">
             <h3>PAN</h3>
             <p>
               El pan que utilizamos en nuestra hamburgueseria es totalente
               artesanal, hechos por nuestros cocineros.
             </p>
           </div>
-          <div class="caja__burg">
+          <div class="seccion2__caja">
             <h3>BACON</h3>
             <p>
               El bacon cocido ahumado con viruta está sometido con una técnica
               especial en humo haciendo que destaque en cada bocado. Es un
-              complemento idóneo para tu hamburguesa.
+              complemento idóneo para tus hamburguesas.
             </p>
           </div>
-          <div class="caja__burg">
+          <div class="seccion2__caja">
             <h3>CARNE Y QUESO</h3>
             <p>
               Llegamos al ingrediente protagonista, la carne picada. Esta
@@ -113,7 +113,7 @@
               aseguramos.
             </p>
           </div>
-          <div class="caja__burg">
+          <div class="seccion2__caja">
             <h3>LECHUGA</h3>
             <p>
               Nuestra lechuga, y digo nuestra porque nosotros la cultivamos
@@ -148,17 +148,17 @@
         <!--Seccion 4-->
         <div class="container-fluid">
           <!--Separador-->
-          <div class="row text-center p-5 text-white section__title_ ">
-            <h1 class="text-center text_en">CODER BURGER</h1>
+          <div class="row text-center p-5 text-white section3__title ">
+            <h1 class="text-center section3__title-text">CODER BURGER</h1>
           </div>
         </div>
       </section>
 
-      <section class="container-fluid sec_1">
+      <section class="container-fluid main__sec1">
         <!--seccion 5-->
         <!--Seccion 1-->
-        <div class="row sec_burg">
-          <div class="col-lg-6 d-flex flex-column sec_burg_1">
+        <div class="row main__sec1__box">
+          <div class="col-lg-6 d-flex flex-column main__sec1__box-1">
             <div class="">
               <h2 class="card__subtitle text-center p-4 mt-4 ">Por fin el sabor llega a tu casa</h2>
               <h1 class="card__title text-center">DELIVERY</h1>
@@ -184,13 +184,13 @@
         !
         <!--Seccion 6-->
         <section>
-         <div class="container text_en">
-          <h1 class="text-center text-white">#ENJOYCODERBURGER</h1>
+         <div class="container text_en section3__title">
+          <h1 class="text-center text-white section3__title-text">#ENJOYCODERBURGER</h1>
          </div>
         </section>
         <!--seccion 7-->
-        <section class="container-fluid p-3 social_box">
-          <div class="social_cont">
+        <section class="container-fluid p-3 social__box">
+          <div class="social__box__img">
             <img class="img_soc" src="./assets/social2.webp" alt="s1">
             <img class="img_soc" src="./assets/social1.webp" alt="s2">
             <img class="img_soc" src="./assets/social3.webp" alt="s3">
@@ -200,17 +200,17 @@
 
   </main>
 
-  <footer class="container-fluid p-4">
+  <footer class="container-fluid p-4 footer">
     <div class="d-flex flex-sm-row justify-content-between flex-column text-center">
       <div class="container__box text-center">
-        <a href="./index.html"><img class="nav__img2 p-1 " src="./assets/Logo.webp  " alt="logo"  /></a>
+        <a href="./index.html"><img class="footer__box-img p-1 " src="./assets/Logo.webp  " alt="logo"  /></a>
         <p class="text-white p-3 ">
           Hamburguesas caseras preparadas con dedicación, tiempo y amor.
           Acompañadas por la mejor bebida artesanal.
         </p>
       </div>
       <div>
-        <ul class="text-white text-center">
+        <ul class="text-white text-center footer__promo">
           <li><a href="./pages/promos.html">PROMOS</a></li>
           <li><a href="./pages/menu.html">MENÚ</a></li>
           <li><a href="./pages/">CONTACTO</a></li>

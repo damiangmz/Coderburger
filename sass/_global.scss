@@ -1,0 +1,108 @@
+body {
+    background-image: url(../assets/background.webp);
+    background-size: contain;
+}
+.header {
+    &__nav {
+        width: 100%;
+        background-image: url(../assets/background.webp);
+        background-size: cover;
+
+        &__ul li {
+            display: inline-block;
+            padding: 40px;
+        }
+
+        &__ul-hov {
+            background: linear-gradient(to right, rgb(0, 8, 8), rgb(154, 165, 165)),
+                linear-gradient(to right,
+                    rgba(255, 0, 0, 1),
+                    rgb(241, 136, 15),
+                    rgb(238, 255, 7));
+            background-size: 100% 3px, 0 3px;
+            background-position: 100% 100%, 0 100%;
+            background-repeat: no-repeat;
+            transition: 400ms;
+
+            &:hover {
+                background-size: 0 3px, 100% 3px;
+            }
+        }
+    }
+}
+h4{
+    font-family: "Roboto Slab", serif;
+}
+.footer {
+   
+    li{
+        padding: 15px;
+        list-style: none;
+        
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(94, 93, 91, 1) 0%,
+        rgba(5, 3, 0, 1) 100%);
+    padding: 50px;
+    color: white;
+
+    &__box {
+        max-width: 300px;
+        
+
+        &-img {
+            width: 180px;
+            height: 160px;
+        
+        }
+    }
+/*inicio mapa y bucle*/
+    $redesSociales: (
+        facebook: #3b5998,
+        instagram: #bd1075,
+        twitter:#00acee,
+    );
+    @each $nombre, $color in $redesSociales {
+        .link-#{$nombre}{
+            color: $color
+        }
+        
+    }
+/*fin mapa y bucle*/
+/*inicio extend*/
+    &__li{
+        color: $amarillo;
+        font-size: 18px;
+    }
+    
+    &__promo a{
+        @extend .footer__li;
+    };
+/*fin extend*/
+/*inicio mixin*/
+@mixin texto-p {
+    color: red;
+    font-size: 20px;
+    background-color: white;
+    
+    
+}
+
+.ubi{
+    @include texto-p();
+}
+ /*fin mixin*/   
+}
+
