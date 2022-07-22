@@ -11,6 +11,7 @@ body {
         &__ul li {
             display: inline-block;
             padding: 40px;
+            font-size: 18px;
         }
 
         &__ul-hov {
@@ -43,6 +44,7 @@ h4{
     ul {
         display: flex;
         flex-direction: column;
+        
     }
 
     a {
@@ -68,41 +70,8 @@ h4{
         
         }
     }
-/*inicio mapa y bucle*/
-    $redesSociales: (
-        facebook: #3b5998,
-        instagram: #bd1075,
-        twitter:#00acee,
-    );
-    @each $nombre, $color in $redesSociales {
-        .link-#{$nombre}{
-            color: $color
-        }
-        
-    }
-/*fin mapa y bucle*/
-/*inicio extend*/
-    &__li{
-        color: $amarillo;
-        font-size: 18px;
-    }
-    
-    &__promo a{
-        @extend .footer__li;
-    };
-/*fin extend*/
-/*inicio mixin*/
-@mixin texto-p {
-    color: red;
-    font-size: 20px;
-    background-color: white;
-    
-    
-}
 
-.ubi{
-    @include texto-p();
-}
- /*fin mixin*/   
+/*inicio extend*/
+  
 }
 

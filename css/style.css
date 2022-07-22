@@ -8,7 +8,8 @@ body {
   background-size: cover; }
   .header__nav__ul li {
     display: inline-block;
-    padding: 40px; }
+    padding: 40px;
+    font-size: 18px; }
   .header__nav__ul-hov {
     background: linear-gradient(to right, #000808, #9aa5a5), linear-gradient(to right, red, #f1880f, #eeff07);
     background-size: 100% 3px, 0 3px;
@@ -26,12 +27,7 @@ h4 {
   background: linear-gradient(0deg, black 0%, #5e5d5b 0%, #050300 100%);
   padding: 50px;
   color: white;
-  /*inicio mapa y bucle*/
-  /*fin mapa y bucle*/
-  /*inicio extend*/
-  /*fin extend*/
-  /*inicio mixin*/
-  /*fin mixin*/ }
+  /*inicio extend*/ }
   .footer li {
     padding: 15px;
     list-style: none; }
@@ -46,19 +42,6 @@ h4 {
     .footer__box-img {
       width: 180px;
       height: 160px; }
-  .footer .link-facebook {
-    color: #3b5998; }
-  .footer .link-instagram {
-    color: #bd1075; }
-  .footer .link-twitter {
-    color: #00acee; }
-  .footer__li, .footer__promo a {
-    color: #ffd106;
-    font-size: 18px; }
-  .footer .ubi {
-    color: red;
-    font-size: 20px;
-    background-color: white; }
 
 .btn__pedir {
   position: fixed;
@@ -102,13 +85,7 @@ h4 {
   background: black;
   background: linear-gradient(0deg, black 0%, #5e5d5b 0%, #050300 100%);
   padding: 50px;
-  color: white;
-  /*inicio mapa y bucle*/
-  /*fin mapa y bucle*/
-  /*inicio extend*/
-  /*fin extend*/
-  /*inicio mixin*/
-  /*fin mixin*/ }
+  color: white; }
   .footer li {
     padding: 15px;
     list-style: none; }
@@ -123,29 +100,32 @@ h4 {
     .footer__box-img {
       width: 180px;
       height: 160px; }
-  .footer .link-facebook {
-    color: #3b5998; }
-  .footer .link-instagram {
-    color: #bd1075; }
-  .footer .link-twitter {
-    color: #00acee; }
-  .footer__li, .footer__promo a {
-    color: #ffd106;
-    font-size: 18px; }
-  .footer .ubi {
-    color: red;
-    font-size: 20px;
-    background-color: white; }
 
 .header__video {
   width: 100%; }
 
 .main__sec1 {
   padding: 0px; }
+  .main__sec1 .card__buttom {
+    margin: 20px; }
+    .main__sec1 .card__buttom .hov {
+      font-family: "Roboto", sans-serif;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: rgba(51, 49, 49, 0.945);
+      font-size: large;
+      border: 0px;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer; }
   .main__sec1 h1 {
     color: white; }
   .main__sec1__box {
-    background-color: #ffd106; }
+    background-color: #ffd106;
+    margin-left: 0px !important;
+    margin-right: 0px !important; }
+    .main__sec1__box-1 {
+      align-self: center; }
     .main__sec1__box-2 {
       overflow: hidden;
       max-width: 100%; }

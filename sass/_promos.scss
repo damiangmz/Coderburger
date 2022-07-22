@@ -91,40 +91,4 @@
         
         }
     }
-/*inicio mapa y bucle*/
-    $redesSociales: (
-        facebook: #3b5998,
-        instagram: #bd1075,
-        twitter:#00acee,
-    );
-    @each $nombre, $color in $redesSociales {
-        .link-#{$nombre}{
-            color: $color
-        }
-        
-    }
-/*fin mapa y bucle*/
-/*inicio extend*/
-    &__li{
-        color: $amarillo;
-        font-size: 18px;
-    }
-    
-    &__promo a{
-        @extend .footer__li;
-    };
-/*fin extend*/
-/*inicio mixin*/
-@mixin texto-p {
-    color: red;
-    font-size: 20px;
-    background-color: white;
-    
-    
-}
-
-.ubi{
-    @include texto-p();
-}
- /*fin mixin*/   
 }

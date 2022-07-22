@@ -5,13 +5,38 @@
 .main__sec1 {
     padding: 0px;
 
+    .card__buttom {
+        margin: 20px;
+
+        .hov {
+            font-family: "Roboto", sans-serif;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(51, 49, 49, 0.945);
+            font-size: large;
+            border: 0px;
+            border-radius: 8px;
+            color: white;
+            cursor: pointer;
+            
+        }
+
+    }
+
+
     h1 {
         color: white;
     }
 
     &__box {
         background-color: $amarillo;
-        margin-left: 0px!important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+
+        &-1 {
+            align-self: center;
+        }
+
 
         &-2 {
             overflow: hidden;
